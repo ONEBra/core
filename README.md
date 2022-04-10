@@ -2,7 +2,8 @@
 
 ## English intro
 
-An open source algorithm to generate a 3D model of the bra women need to have a perfectly symmetric breast, starting from a simple 3D photo of the complete breast.
+An open source algorithm to generate a 3D model of the women bra.
+This allows ONEBra to build personalized bra for perfectly symmetric breast, starting from a simple 3D photo.
 
 ## Italian intro
 
