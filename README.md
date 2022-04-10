@@ -27,6 +27,6 @@ Le coppe sono realizzate con un materiale riciclabile, traspirante e morbido per
 
 In aggiunta, ONEBra garantisce un servizio di community per sostenere le donne durante tutte le fasi dell’intervento di mastectomia attraverso l’ausilio di materiale informativo e di supporto.
 
-# Funding
+# Funding (italian only)
 
 #Onebra è una #startup che partecipa alla terza edizione di [TrentinoStartupValley](https://trentinostartupvalley.it/) 
