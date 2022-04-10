@@ -1,0 +1,50 @@
+######################################################################################
+## PARAMETERS FOR THE ONEBRA BRA-GENERATION ALGORITHM FROM 3D-PHOTO OF WOMEN BREAST ##
+######################################################################################
+
+# input file path (complete scan of the woman upper body)
+input_stl_file_path: <YOUR PATH HERE>/data/PERSONA2 V1.stl
+
+# output file path (the stl geometry of the BRA to be 3d-printed to have perfectly symmetric breasts)
+output_stl_bra_file_path: <YOUR PATH HERE>/data/OPEN BRA PERSONA2 V1.stl
+
+# bounding box centered on the center of the largest connected components
+blind_breasts_bounding_box:
+  # total bbox x dimension will be xwidth*2 (left and right)
+  xwidth: 0.25
+  ywidth: 0.07
+  zwidth: 0.2
+
+# bounding box centered on the center of each single breast identified starting from `blind_breasts_bounding_box`
+breast_bounding_box:
+
+  # default x: 0.005
+  x_left_width: 0.03
+  x_right_width: 0.03
+
+  # default y: 0.009
+  y_up_width: 0.06
+  y_down_width: 0.035
+
+  # default z: 0.1
+  z_neg_width: 0.1
+
+# manually move reference breasts (the red-one) to the left, after automatic alignment.
+# use only if automatic alignment is not satisfactory
+breasts_align_x_offset: 0.00
+# manually move reference breasts (the red-one) up, after automatic alignment.
+# use only if automatic alignment is not satisfactory
+breasts_align_y_offset: 0.0
+# manually move reference breasts (the red-one) outside, after automatic alignment.
+# use only if automatic alignment is not satisfactory
+breasts_align_z_offset: 0.00
+
+# stop criterion for both breasts. They should (both) contain at least this number of cells
+min_region_size: 25000
+
+# percentage of final clipping (using a sphere)
+breast_clip: 0.85
+
+# increment steps on z axis starting from the center to identify the two breasts
+increment: 0.01
+
