@@ -8,6 +8,10 @@ An open source algorithm to generate a 3D model of the women bra. This allows ON
 
 ONEBra propone coppe customizzate, realizzate con stampa 3D per donne con asimmetria ai seni post intervento di mastectomia.
 
+Prima | Dopo
+:-------------------------:|:-------------------------:
+![](img/1-before.png) | ![](img/1-after.png)
+
 # Entrepreneurial Team
 
 - Sofia Santi: 8 years of experience in biomaterials, expert in 3D printing
