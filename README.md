@@ -1,20 +1,25 @@
 # ONEBra
 
-## English intro
+## Introduction
 
 An open source algorithm to generate a 3D model of the women bra. This allows ONEBra to build personalized/customized cups for symmetric breast restoration starting from a simple 3D photo.
 
-## Informations
+### Questions, pre-orders, informations
 
 Want to know more? [contact us](mailto:santisofia.1992@gmail.com)
 
-## Italian intro
+## Introduzione
 
 ONEBra propone coppe customizzate, realizzate con stampa 3D per donne con asimmetria ai seni post intervento di mastectomia.
 A partire da una semplice foto in 3D del seno creiamo, stampiamo e spediamo a casa un modello 3D personalizzato della coppa per riempire le differenze, sia naturali che a seguito di interventi chirurgici:
 
 ![](img/1-before.png)
  ![](img/1-after.png)
+
+### Domande, pre-ordini, informazioni
+
+Vuoi saperne di piu\`? [contattaci](mailto:santisofia.1992@gmail.com)
+
 
 # Entrepreneurial Team
 
