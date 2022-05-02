@@ -18,7 +18,7 @@ A partire da una semplice foto in 3D del seno creiamo, stampiamo e spediamo a ca
 
 ### Domande, pre-ordini, informazioni
 
-Vuoi saperne di piu\`? [contattaci](mailto:santisofia.1992@gmail.com)
+Per ulteriori informazioni, o sapere come ordinare in pre-ordine la tua coppa [contattaci](mailto:santisofia.1992@gmail.com)
 
 
 # Entrepreneurial Team
