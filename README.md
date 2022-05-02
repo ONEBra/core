@@ -4,6 +4,10 @@
 
 An open source algorithm to generate a 3D model of the women bra. This allows ONEBra to build personalized/customized cups for symmetric breast restoration starting from a simple 3D photo.
 
+## Informations
+
+Want to know more? (contact us)[mailto:santisofia.1992@gmail.com]
+
 ## Italian intro
 
 ONEBra propone coppe customizzate, realizzate con stampa 3D per donne con asimmetria ai seni post intervento di mastectomia.
