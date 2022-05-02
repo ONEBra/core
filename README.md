@@ -6,7 +6,7 @@ An open source algorithm to generate a 3D model of the women bra. This allows ON
 
 ## Informations
 
-Want to know more? (contact us)[mailto:santisofia.1992@gmail.com]
+Want to know more? [contact us](mailto:santisofia.1992@gmail.com)
 
 ## Italian intro
 
