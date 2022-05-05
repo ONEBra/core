@@ -6,7 +6,7 @@ An open source algorithm to generate a 3D model of the women bra. This allows ON
 
 ### Questions, pre-orders, informations
 
-Want to know more? [contact us](mailto:santisofia.1992@gmail.com)
+Want to know more? [contact us](mailto:onebra.info@gmail.com)
 
 ## Introduzione
 
@@ -18,7 +18,7 @@ A partire da una semplice foto in 3D del seno creiamo, stampiamo e spediamo a ca
 
 ### Domande, pre-ordini, informazioni
 
-Per ulteriori informazioni, o sapere come ordinare in pre-ordine la tua coppa [contattaci](mailto:santisofia.1992@gmail.com)
+Per ulteriori informazioni, o sapere come ordinare in pre-ordine la tua coppa [contattaci](mailto:onebra.info@gmail.com)
 
 
 # Entrepreneurial Team
