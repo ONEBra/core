@@ -54,6 +54,7 @@ from vtkmodules.vtkIOGeometry import (
 import numpy as np
 
 def clipWithSphere(breast, center, radius):
+    # clip the input breast with a sphere of given center and radius
     breastImpContext = vtkSphere()
     breastImpContext.SetCenter(center)
     breastImpContext.SetRadius(radius)
@@ -66,6 +67,7 @@ def clipWithSphere(breast, center, radius):
     return refclipper.GetOutput()
     
 def clipWithBBox(bounds, polyData, x_left_width, x_right_width, y_up_width, y_down_width, neg_z_tol):
+    # clip a polyData using a cube
     xMin, xMax, yMin, yMax, zMin, zMax = bounds
     
     breastBBox = vtkBox()
@@ -105,7 +107,7 @@ def largestConnectedComponent(polyData):
     return connectedData
     
 def blindClip(config, connectedData):    
-    # algorithm to identify the left and right breast automatically
+    # blindly cut the 3D photo with a given parallelepiped
     polyCenter = connectedData.GetCenter()
     bbbox=config['blind_breasts_bounding_box']
     xwidth = bbbox['xwidth']
@@ -118,6 +120,7 @@ def blindClip(config, connectedData):
     return polyCenter, breastsData
 
 def breastsClip(config, polyCenter, breastsData):
+    # algorithm to identify the left and right breast automatically
     polyBoundsLeft = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
     polyBoundsRight = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
     polyNCellsLeft = 0
@@ -232,7 +235,7 @@ def augmentBreastSurface(config, connectedData, breastRef, breastImp):
     return (breastRefComplete, breastImpComplete)
     
 def reflectBreast(config, breastRefComplete):        
-    # reflect reference breast
+    # reflect reference breast, needed before superimposing
     tpd = vtkReflectionFilter()
     tpd.CopyInputOff()
     tpd.SetInputData(breastRefComplete)
@@ -245,6 +248,7 @@ def reflectBreast(config, breastRefComplete):
     return breastRefReflect
 
 def alignBreasts(config, breastRefComplete, breastImpComplete, breastRefReflect):    
+    # superimpmose impaired and reference breasts
     breastImpBbox=breastImpComplete.GetBounds() 
     breastRefBbox=breastRefComplete.GetBounds()
     breastRefReflectBbox = breastRefReflect.GetBounds()
@@ -262,6 +266,7 @@ def alignBreasts(config, breastRefComplete, breastImpComplete, breastRefReflect)
     return breastRefReflectAlign
 
 def sphereClip(config, breastRefComplete, breastImpComplete, breastRefReflectAlign, breastImpAlign):
+    # clip the final cup with a sphere
     breastImpBbox=breastImpComplete.GetBounds() 
     breastRefBbox=breastRefComplete.GetBounds()
     rxMin, rxMax, ryMin, ryMax, rzMin, rzMax = breastRefBbox
