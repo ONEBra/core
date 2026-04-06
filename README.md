@@ -2,7 +2,7 @@
 
 ## Introduction
 
-An open source algorithm to generate a 3D model of the women bra. This allows ONEBra to build personalized/customized cups for symmetric breast restoration starting from a simple 3D photo.
+An open source algorithm to generate a 3D model of the women bra. This allows [ONEBra](https://www.linkedin.com/company/onebra/) to build personalized/customized cups for symmetric breast restoration starting from a simple 3D photo.
 
 ### Questions, pre-orders, informations
 
@@ -23,10 +23,10 @@ Per ulteriori informazioni, o sapere come ordinare in pre-ordine la tua coppa [c
 
 # Entrepreneurial Team
 
-- Sofia Santi: 8 years of experience in biomaterials, expert in 3D printing
-- Giulia Faoro: E-commerce sales manager and businness developer, with 10 years experience in fashon industry
-- Silvia Chiera: 8 years of experience in biomaterials and biomedical technologies
-- Danilo Tomasoni: Computer Scientist and Bioinformatician with almost 10 years of experience in software engineering and development
+- [Sofia Santi](https://www.linkedin.com/in/sofia-santi/): 8 years of experience in biomaterials, expert in 3D printing
+- [Giulia Faoro](https://www.linkedin.com/in/giulia-faoro-b5287541/): E-commerce sales manager and businness developer, with 10 years experience in fashon industry
+- [Silvia Chiera](https://www.linkedin.com/in/silviachiera/): 8 years of experience in biomaterials and biomedical technologies
+- [Danilo Tomasoni](https://www.linkedin.com/in/computerscience-tomasoni/): Computer Scientist and Bioinformatician with almost 10 years of experience in software engineering and development
 
 # Final product (italian only)
 
