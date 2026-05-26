@@ -6,7 +6,7 @@ An open source algorithm to generate a 3D model of the women bra. This allows [O
 
 ### Questions, pre-orders, informations
 
-Want to know more? [contact us](mailto:onebra.info@gmail.com)
+Want to know more? [contact us](https://onebra.it/contatti/)
 
 ## Introduzione
 
