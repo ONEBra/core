@@ -18,7 +18,7 @@ A partire da una semplice foto in 3D del seno creiamo, stampiamo e spediamo a ca
 
 ### Domande, pre-ordini, informazioni
 
-Per ulteriori informazioni, o sapere come ordinare in pre-ordine la tua coppa [contattaci](mailto:onebra.info@gmail.com)
+Per ulteriori informazioni, o sapere come ordinare in pre-ordine la tua coppa [contattaci](https://onebra.it/contatti/)
 
 
 # Entrepreneurial Team
